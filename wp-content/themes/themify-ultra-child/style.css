@@ -1,0 +1,25 @@
+/*
+Theme Name: Ultra Child
+Description: Child theme for Ultra theme
+Author: Themify
+Template: themify-ultra
+*/
+
+/**
+* Main styles
+*
+*/
+
+/**
+* NiceScroll fix
+*/
+.nicescroll-rails > div {
+	width: 3px !important; /* width bigger */
+	background-color: rgba(120, 120, 120, 0.9) !important; /* set bgc to black */
+	border-color: rgba(255, 255, 255, 0.7) !important;  /* set border to white */
+	right: 0px; /* set position to right screen border */
+}
+
+.nicescroll-rails { z-index: 10000 !important; } /* scroll bar always on top */
+
+.post-type-archive-product.woocommerce-page { overflow-x: auto; } /* fix bug with default scrollbar on WC product page only */
