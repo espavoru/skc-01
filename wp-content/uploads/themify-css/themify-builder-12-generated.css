@@ -1,0 +1,35 @@
+/* .themify_builder_12_row.module_row_0 Style */
+.themify_builder_12_row.module_row_0.module_row {
+	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/bg-top-done.jpg);
+	text-align: center;
+	color: #ffffff;
+	padding-top : 13%;
+	padding-bottom : 3%
+}
+.themify_builder_12_row.module_row_0.module_row h1 {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row h2 {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row h3:not(.module-title) {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row h4 {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row h5 {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row h6 {
+	color: #ffffff
+}
+.themify_builder_12_row.module_row_0.module_row>.builder_row_cover {
+	background:rgba(0,0,0, 0.25)
+}
+
+.themify_builder .text-12-0-0-1.module-text { margin-bottom: 7%;  } 
+.themify_builder .text-12-0-0-1.module-text h2 { font-size: 3.6em;  } 
+.themify_builder .text-12-sub_row_0-0-2-0-0.module-text { text-align: center;  } 
+.themify_builder .text-12-sub_row_0-0-2-2-0.module-text { text-align: center;  } 
+.themify_builder .text-12-sub_row_0-0-2-3-0.module-text { text-align: center;  } 

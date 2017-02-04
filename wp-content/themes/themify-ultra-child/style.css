@@ -1,14 +1,18 @@
 /*
-Theme Name: Ultra Child
-Description: Child theme for Ultra theme
-Author: Themify
+Theme Name: Parallax
+Description: Just simple page
+Author: Olefirenko Oleg
 Template: themify-ultra
 */
 
 /**
 * Main styles
 */
+#text-12-0-0-1 h2 { letter-spacing: 3px; } /* фикс заголовка в топе */
+#text-12-0-0-1 .button.white { font-weight: 500; } /* фикс текста кнопки в топе */
 
+#text-12-sub_row_0-0-2-0-0 .fa { margin-right: 10px; } /* фикс иконок под баннером в топе */
+.top-banner h4 { margin: 0; }
 /*
 * Blog post customization
 */
@@ -19,6 +23,24 @@ Template: themify-ultra
 	background-color: #3d3d3d;
 	color: #fff;
 	border-color: #3d3d3d;
+}
+
+/*
+* Form styles
+*/
+.recap { margin-bottom: 25px; } /* reCaptcha margin bottom fix */
+
+.recap div { /* reCaptcha centering */
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.wpcf7-submit { /* Submit btn fullwidth */
+	width: 100%;
+	font-weight: 500;
+}
+
+#menu-icon:before { color: #fff; } /* Mobile menu icon color fix */
 
 /**
 * NiceScroll fix
@@ -32,4 +54,30 @@ Template: themify-ultra
 
 .nicescroll-rails { z-index: 10000 !important; } /* scroll bar always on top */
 
-.post-type-archive-product.woocommerce-page { overflow-x: auto; } /* fix bug with default scrollbar on WC product page only */
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1230px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 680px) {
+	#body h2 { font-size: 3.2em; } /* Top section title fix */
+	#body h4 { font-size: 1.4em; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
