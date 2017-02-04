@@ -17,11 +17,17 @@ h1 {		font-weight:normal;
 h2 {		text-transform:uppercase;
 	color: #3d3d3d; 
 }
-h3 {	
+h3 {		font-weight:normal;
+
 	color: #3d3d3d; 
 }
 h4 {		font-weight:normal;
 
+	color: #3d3d3d; 
+}
+h5 {		font-weight:bold;
+	font-size:2em;
+	text-transform:uppercase;
 	color: #3d3d3d; 
 }
 input[type=reset], input[type=submit], button {	
