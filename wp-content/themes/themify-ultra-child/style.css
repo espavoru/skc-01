@@ -7,8 +7,18 @@ Template: themify-ultra
 
 /**
 * Main styles
-*
 */
+
+/*
+* Blog post customization
+*/
+.comment-title, /* фикс fw у title комментариев */
+.comment-reply-title { font-weight: 500; }
+
+.commentlist .comment-reply-link:hover {
+	background-color: #3d3d3d;
+	color: #fff;
+	border-color: #3d3d3d;
 
 /**
 * NiceScroll fix
