@@ -2415,7 +2415,7 @@ SLIDER MODULE
 	display: block;
 }
 .themify_builder_slider > li {
-	margin: 0 !important;
+	margin: 0 ;
 	padding: 0;
 	list-style: none;
 	float: left;

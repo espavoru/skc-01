@@ -30,6 +30,11 @@ Template: themify-ultra
 	-o-transform: translate(-50%, -50%) ;
 	transform: translate(-50%, -50%) ;
 }
+
+.module-slider.themify_builder_slider_vertical .carousel-prev, 
+.module-slider.themify_builder_slider_vertical .carousel-next { top: 27%; } /* выравнивание навигации в слайдере "Brands" */
+
+
 /*
 * Blog post customization
 */
