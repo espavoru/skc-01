@@ -41,19 +41,42 @@
 
 .themify_builder .text-12-1-0-1.module-text { text-align: center; margin-bottom: 2%;  } 
 .themify_builder .text-12-1-0-3.module-text { text-align: center;  } 
+/* .themify_builder_12_row.module_row_2 Style */
+.themify_builder_12_row.module_row_2.module_row {
+	text-align: center
+}
+
 /* .module_row_2 .module_column_0.tb_12_column Style */
 .module_row_2 .module_column_0.tb_12_column.module_column {
-	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/sertif-cr.jpg)
+	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/sertif-cr.jpg);
+	padding-top : 15%;
+	padding-bottom : 5%
 }
 .module_row_2 .module_column_0.tb_12_column.module_column>.builder_row_cover {
 	background:rgba(0,0,0, 0.51)
 }
 
+.themify_builder .text-12-2-0-1.module-text { color: #ffffff; font-size: 1.2em; margin-bottom: 2%;  } 
+.themify_builder .text-12-2-0-1.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-12-2-0-1.module-text h2 { color: #ffffff;  } 
+.themify_builder .text-12-2-0-1.module-text h3:not(.module-title) { color: #ffffff;  } 
+.themify_builder .text-12-2-0-1.module-text h4 { color: #ffffff;  } 
+.themify_builder .text-12-2-0-1.module-text h5 { color: #ffffff;  } 
+.themify_builder .text-12-2-0-1.module-text h6 { color: #ffffff;  } 
 /* .module_row_2 .module_column_1.tb_12_column Style */
 .module_row_2 .module_column_1.tb_12_column.module_column {
-	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/best-stuff.jpg)
+	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/best-stuff.jpg);
+	padding-top : 15%;
+	padding-bottom : 5%
 }
 .module_row_2 .module_column_1.tb_12_column.module_column>.builder_row_cover {
 	background:rgba(0,0,0, 0.50)
 }
 
+.themify_builder .text-12-2-1-1.module-text { color: #ffffff; font-size: 1.2em; padding-bottom: 2%;  } 
+.themify_builder .text-12-2-1-1.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-12-2-1-1.module-text h2 { color: #ffffff;  } 
+.themify_builder .text-12-2-1-1.module-text h3:not(.module-title) { color: #ffffff;  } 
+.themify_builder .text-12-2-1-1.module-text h4 { color: #ffffff;  } 
+.themify_builder .text-12-2-1-1.module-text h5 { color: #ffffff;  } 
+.themify_builder .text-12-2-1-1.module-text h6 { color: #ffffff;  } 
