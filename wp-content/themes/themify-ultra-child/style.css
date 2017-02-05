@@ -1,6 +1,6 @@
 /*
-Theme Name: Parallax
-Description: Just simple page
+Theme Name: SKC
+Description: SKC home page
 Author: Olefirenko Oleg
 Template: themify-ultra
 */
@@ -16,7 +16,7 @@ Template: themify-ultra
 
 #body .features-descr .gallery-caption { 
 	margin-top: 35px;
-	font-size: 1em; 
+	font-size: 1.2em; 
 }
 
 #text-12-1-0-3 p { margin-bottom: 0; }

@@ -41,3 +41,19 @@
 
 .themify_builder .text-12-1-0-1.module-text { text-align: center; margin-bottom: 2%;  } 
 .themify_builder .text-12-1-0-3.module-text { text-align: center;  } 
+/* .module_row_2 .module_column_0.tb_12_column Style */
+.module_row_2 .module_column_0.tb_12_column.module_column {
+	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/sertif-cr.jpg)
+}
+.module_row_2 .module_column_0.tb_12_column.module_column>.builder_row_cover {
+	background:rgba(0,0,0, 0.51)
+}
+
+/* .module_row_2 .module_column_1.tb_12_column Style */
+.module_row_2 .module_column_1.tb_12_column.module_column {
+	background-image: url(http://localhost/projects/rupage/wp-content/uploads/2017/02/best-stuff.jpg)
+}
+.module_row_2 .module_column_1.tb_12_column.module_column>.builder_row_cover {
+	background:rgba(0,0,0, 0.50)
+}
+
