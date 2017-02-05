@@ -86,7 +86,35 @@ input[type=reset]:hover, input[type=submit]:hover, button:hover {
 #sidebar .widgettitle {	
 	color: #3d3d3d; 
 }
-@media screen and (max-width: 480px) { /* Themify Customize Styling */
+#footerwrap {	
+	background-color: #3d3d3d; 
+}
+#footer-logo {	
+	color: #ffffff; 
+}
+#footer-logo a {	
+	color: #ffffff; 
+}
+#footer {	
+	color: #cccccc; 
+}
+#footer a {	
+	color: #eeeeee; 
+}
+#footer-nav a {	
+	color: #cccccc; 
+}
+.footer-widgets {		text-align:center; 
+}
+@media screen and (max-width: 976px) { /* Themify Customize Styling */
+#footer-logo a {	
+	color: #ffffff; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#footer-logo a {	
+	color: #ffffff; 
+}
+ }@media screen and (max-width: 480px) { /* Themify Customize Styling */
 body {	
 	font-family:Roboto;	font-weight:100;
 
@@ -166,5 +194,8 @@ input[type=reset]:hover, input[type=submit]:hover, button:hover {
 }
 #sidebar .widgettitle {	
 	color: #3d3d3d; 
+}
+#footer-logo a {	
+	color: #ffffff; 
 }
  }

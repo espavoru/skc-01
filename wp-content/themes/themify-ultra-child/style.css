@@ -64,6 +64,13 @@ Template: themify-ultra
 	font-weight: 500;
 }
 
+/*
+* Footer
+*/
+#footer span .fa { 
+	margin-right: 10px;
+	font-size: 1em;
+} 
 
 /**
 * NiceScroll fix
