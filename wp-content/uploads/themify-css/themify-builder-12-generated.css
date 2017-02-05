@@ -80,3 +80,9 @@
 .themify_builder .text-12-2-1-1.module-text h4 { color: #ffffff;  } 
 .themify_builder .text-12-2-1-1.module-text h5 { color: #ffffff;  } 
 .themify_builder .text-12-2-1-1.module-text h6 { color: #ffffff;  } 
+/* .themify_builder_12_row.module_row_3 Style */
+.themify_builder_12_row.module_row_3.module_row {
+	text-align: center
+}
+
+.themify_builder .text-12-3-0-1.module-text { background-color: #fff; padding-top: 5%; padding-right: 3%; padding-bottom: 3%; padding-left: 3%;  } 

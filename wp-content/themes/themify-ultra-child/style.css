@@ -14,12 +14,22 @@ Template: themify-ultra
 #text-12-sub_row_0-0-2-0-0 .fa { margin-right: 10px; } /* фикс иконок под баннером в топе */
 .top-banner h4 { margin: 0; }
 
-#body .features-descr .gallery-caption { 
+#body .features-descr .gallery-caption { /* фикс текста преимуществ */
 	margin-top: 35px;
 	font-size: 1.2em; 
 }
 
 #text-12-1-0-3 p { margin-bottom: 0; }
+
+.shop-content h3 { /* выравнивание текста категории в блоке Магазин */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%) ;
+	-ms-transform: translate(-50%, -50%) ;
+	-o-transform: translate(-50%, -50%) ;
+	transform: translate(-50%, -50%) ;
+}
 /*
 * Blog post customization
 */
@@ -54,7 +64,7 @@ Template: themify-ultra
 * NiceScroll fix
 */
 .nicescroll-rails > div {
-	width: 3px !important; /* width bigger */
+	width: 4px !important; /* width bigger */
 	background-color: rgba(120, 120, 120, 0.9) !important; /* set bgc to black */
 	border-color: rgba(255, 255, 255, 0.7) !important;  /* set border to white */
 	right: 0px; /* set position to right screen border */
